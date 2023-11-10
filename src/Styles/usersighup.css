@@ -1,0 +1,265 @@
+#mainBus{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bus-data{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.bus-ticket{
+  height: 550px;
+  width: 500px;
+  margin-top: 40px;
+  border-radius: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.546);
+}
+.bus-ticket>center>h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(71, 71, 71);
+}
+.bus-ticket>.boarding-point{
+  height: 100px;
+  width: 470px;
+  border-radius: 10px;
+  background-color: rgba(69, 71, 70, 0.186);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+margin: 10px auto;
+
+}
+.bus-ticket>.boarding-point-seat{
+  height: 105px;
+  width: 470px;
+  border-radius: 10px;
+  background-color: rgba(69, 71, 70, 0.186);
+  margin: 10px auto;
+
+}
+
+.bus-ticket>.boarding-point>.ddata{
+  height: 100px;
+  width: 200px;
+  
+}
+.bus-ticket>.boarding-point-seat>.noseat{
+  height: 50px;
+  width: 380px;
+  margin: 0 auto;
+}
+.bus-ticket>.boarding-point-seat>.noseat>.pdata{
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+
+.bus-ticket>.boarding-cost{
+  height: 60px;
+  width: 470px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+margin: 10px auto;
+/* border: 1px solid red; */
+
+}
+.bus-ticket>.boarding-cost>.cost{
+  height: 60px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  
+}
+.bus-ticket>.boarding-cost>.cost>.pdata{
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-weight: 900; */
+  /* font-size: 18px; */
+}
+.bus-ticket>.boarding-cost>.cost>.pdata>.cdata{
+color: red;
+font-size: 18px;
+font-weight: 900;
+
+
+}
+.bus-ticket>.boarding-cost>.cost>.cost{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  color: rgb(92, 50, 50);
+  font-size: 25px;
+  font-weight: 900;
+
+}
+
+
+
+
+
+.bus-ticket>.boarding-point>.ddata>.pdata{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 18px;
+}
+.bus-ticket>.boarding-point>.ddata>h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  color: rgb(248, 25, 25);
+
+}
+.bus-ticket>.boarding-point>.dbut{
+height: 40px;
+width: 120px;
+background: rgb(97, 95, 95);
+}
+
+.bus-ticket>center>.bcost{
+  height: 50px;
+  width: 180px;
+  margin-top: 10px;
+}
+
+
+.seat-data{
+  height: 80px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.seat-data>.item{
+height: 30px;
+width:110px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.seat-data>.item>.sp1,.seat-data>.item>.sp2,.seat-data>.item>.sp3{
+height: 25px;
+width: 25px ;
+
+}
+.seat-data>.item>.sp1{
+  background-color: rgb(255, 255, 255);
+border-radius: 3px;
+border: 1.5px solid rgb(202, 202, 202);
+  
+  }
+.seat-data>.item>h3{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+
+}
+
+
+  .seat-data>.item>.sp2{
+    background: rgb(28, 185, 120);
+    border: 1.5px solid rgb(28, 185, 120);
+border-radius: 3px;
+    
+    }
+.seat-data>.item>.sp3{
+  background: rgb(255, 0, 0);
+  border: 1.5px solid rgb(255, 0, 0);
+border-radius: 3px;
+
+}
+
+
+
+
+
+
+.seatl{
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 0.8mm;
+    outline: 0.4mm solid rgb(151, 150, 150);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+    color: rgb(28, 28, 28);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .seati{
+    display: none;
+  }
+
+  .seati:checked+.seatl{
+    background: rgb(28, 185, 120);
+    outline: 0.4mm solid rgb(28, 185, 120);
+  } 
+
+
+  .book1{
+    height: 310px;
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .allseats{
+    height: 300px;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bus{
+    height: 400px;
+    width: 190px;
+    border: 2px solid rgb(84, 192, 51);
+    /* background-color: rgba(36, 35, 35, 0.278); */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+  }
+  .driver{
+    height: 50px;
+    width: 190px;
+  }
+
+  .driver>#steering{
+     height: 35px;
+     width: 35px;
+     float: right;
+     margin-top: 5px;
+     margin-right: 25px;
+  }
+  .book3{
+    height: 30px;
+    width: 190px;
+    display: flex;
+    justify-content: space-evenly;
+/* border: 1px solid red; */
+
+  }

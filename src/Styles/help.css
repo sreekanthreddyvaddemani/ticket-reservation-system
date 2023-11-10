@@ -1,0 +1,202 @@
+#trainseat{
+    width: 100%;
+    height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly; 
+}
+
+#trainseat>.trainseatdata{
+    width: 500px;
+    height: 800px;
+  
+}
+
+
+.inpp1{
+    display: none;
+}
+.lab1{
+    height: 50px ;
+    width: 100px;
+    border: 1px solid red;
+}
+
+
+#trainseat>.trainseatdata>.seattypes{
+height: 100px;
+width: 500px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.546);
+margin:20px 0;
+}
+
+#trainseat>.trainseatdata>.dataseat{
+    height: 700px;
+    width: 500px;
+    }
+#trainseat>.train-threea{
+height: auto;
+width: auto;
+border: 2px solid rgb(41, 39, 39);
+margin-top: 20px;
+border-radius: 5px;
+
+}
+#trainseat>.train-threea>.com-one{
+height: 100px;
+width: 500px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border-top: 1px solid rgb(0, 0, 0);
+border-bottom: 1px solid rgb(0, 0, 0);
+/* border: 1px solid rgb(0, 128, 13); */
+
+}
+
+#trainseat>.train-threea>.com-one>.com-name{
+height: 100px;
+width: 15px;
+/* border:1px solid  yellow; */
+}
+
+#trainseat>.train-threea>.com-one>.com-name>center>p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+color: rgb(159, 96, 96);
+margin-top: 4.5px;
+}
+
+#trainseat>.train-threea>.com-one>.oneside{
+    height: 100px;
+    width: 90px;
+    /* border: 1px solid rgb(0, 13, 128); */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+    }
+
+    #trainseat>.train-threea>.com-one>.oneside>.oneside-seats{
+        height: 84px;
+        width: 100px;
+        /* border: 1px solid rgb(0, 13, 128); */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        }
+
+    .side{
+            width: 40px;
+            height: 80px;
+            outline: 0.4mm solid rgb(151, 150, 150);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* margin: 5px 5px; */
+            color: rgb(28, 28, 28);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /* background: rgb(28, 185, 120); */
+
+        }
+
+    #trainseat>.train-threea>.com-one>.twosides{
+        height: 100px;
+        width: 320px;
+        /* border: 1px solid rgb(141, 55, 255); */
+        display: flex;
+align-items: center;
+justify-content: space-evenly;
+        }
+
+
+
+
+#trainseat>.train-threea>.com-one>.twosides>.upper{
+height: 80px;
+width: 100px;
+/* border: 1px solid green; */
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+#trainseat>.train-threea>.com-one>.twosides>.lower{
+    height: 80px;
+    width: 100px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    }#trainseat>.train-threea>.com-one>.twosides>.middle{
+        height: 80px;
+        width: 100px;
+        /* border: 1px solid green; */
+        display: grid;
+        /* align-items: center; */
+        justify-content: space-evenly;
+        /* flex-wrap: wrap; */
+        
+        }
+
+  .seat-place{
+    transform: rotate(-90deg);
+
+  }
+
+
+     #trainseat>.train-threea>.com-one>.twosides>.middle>.side{
+            width: 98px;
+            height: 35px;
+            outline: 0.4mm solid rgb(151, 150, 150);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(28, 28, 28);
+            margin-bottom: 8px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+        
+        #trainseat>.train-threea>.com-one>.twosides>.upper>.side{
+            width: 98px;
+            height: 35px;
+            outline: 0.4mm solid rgb(151, 150, 150);
+            cursor: pointer;
+            color: rgb(28, 28, 28);
+            margin-bottom: 8px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        #trainseat>.train-threea>.com-one>.twosides>.lower>.side{
+            width: 98px;
+            height: 35px;
+            outline: 0.4mm solid rgb(151, 150, 150);
+            cursor: pointer;
+            color: rgb(28, 28, 28);
+            margin-bottom: 8px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        } 
+                  .sidei{
+                         display: none;
+                        }
+        .sidei:checked+.side{
+            background: rgb(28, 185, 120);
+            outline: 0.4mm solid rgb(28, 185, 120);
+        
+          }
+
+         
+         

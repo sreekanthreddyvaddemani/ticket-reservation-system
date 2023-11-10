@@ -1,0 +1,227 @@
+#main1>#scroll1 {
+	height: 86vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	/* background: linear-gradient(135deg, #3d3b3a, #000000); */
+	background: #1c2338;
+
+
+}
+
+
+
+.container1 {
+	max-width: 700px;
+	width: 100%;
+    height: auto;
+	background-color: #91ebf1;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+	padding: 25px 30px;
+	border-radius: 5px;
+
+}
+
+.container1 .title1 {
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+}
+
+/* .container .title::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	border-radius: 5px;
+	/* background: linear-gradient(135deg, #71b7e6, #9b59b6); 
+} 
+*/
+
+.content1 form .user-details1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+
+form .user-details1 .input-box1 {
+	margin-bottom: 15px;
+	width: calc(100%/ 2 - 20px);
+}
+
+form .input-box1 span.details1 {
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.user-details1 .input-box1 input {
+	height: 45px;
+	width: 100%;
+	outline: none;
+	font-size: 16px;
+	border-radius: 5px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+
+.user-details1 .input-box1 input:focus, .user-details1 .input-box1 input:valid
+	{
+	border-color: #3434e7;
+}
+
+form .gender-details1 .gender-title1 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+form .category1 {
+	display: flex;
+	width: 80%;
+	margin: 14px 0;
+	justify-content: space-between;
+}
+
+form .category1 label {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+form .category1 label .dot1 {
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	margin-right: 10px;
+	background: #d9d9d9;
+	border: 5px solid transparent;
+	transition: all 0.3s ease;
+}
+
+#dot-1:checked ~ .category label .one, #dot-2:checked ~ .category label .two,
+	#dot-3:checked ~ .category label .three {
+	background: #9b59b6;
+	border-color: #d9d9d9;
+}
+
+form input[type="radio"] {
+	display: none;
+}
+
+form .button1 {
+	height: 45px;
+	margin: 35px 0
+}
+
+form .button1 input {
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button1 input:hover {
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media ( max-width : 584px) {
+	.container1 {
+		max-width: 100%;
+	}
+	form .user-details1 .input-box1 {
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	form .category1 {
+		width: 100%;
+	}
+	.content1 form .user-details1 {
+		max-height: 300px;
+		overflow-y: scroll;
+	}
+	.user-details1::-webkit-scrollbar {
+		width: 5px;
+	}
+}
+
+@media ( max-width : 459px) {
+	.container1 .content1 .category1 {
+		flex-direction: column;
+	}
+}
+#main1>#scroll1>.container1>.content1>form>center>#div41>Button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder;
+width: 180px;
+height: 47px;
+font-size: 15px;
+    } 
+
+
+    #main1>#scroll1>.container1>.content1>form>.div51{
+        height: 30px;
+        width: 60%;
+        margin-left: 127px;
+        display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+    }
+    #main1>#scroll1>.container1>.content1>form>.div51>.reg1{
+height: 100%;
+width: 25%;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+    #main1>#scroll1>.container1>.content1>form>.div51>.reg1>.logo1{
+height: 90%;
+width: 30px;
+	}
+    #main1>#scroll1>.container1>.content1>form>.div51>.reg1>.logo1>img{
+
+		height: 90%;
+		width: 30px;
+	}
+	#main1>#scroll1>.container1>.content1>form>.div51>.reg1>.logo1>#img3{
+		height: 110%;
+		width: 30px;
+        border-radius: 100%;
+		margin-top: -3px;
+		color: red;
+	}
+    #main1>#scroll1>.container1>.content1>form>.div51>.reg1:hover{
+		cursor: pointer;
+	}
+    #main1>#scroll1>.container1>.content1>form>.div51>.reg1>.name{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+    #main1>#scroll1>.container1>.content1>form>center>#login1{
+width: 35%;
+height: 30px;
+display: flex;
+	}
+    #main1>#scroll1>.container1>.content1>form>center>#login1>p{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 450;
+	}
+    #main1>#scroll1>.container1>.content1>form>center>#login1>p>a{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 1000;
+color: red;
+text-decoration: none;
+	}
+

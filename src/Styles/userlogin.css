@@ -1,0 +1,674 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .help{
+    height: 80vh;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.help>.abc{
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(0, 255, 55);
+    margin: 50px 50px;
+} */
+
+.spantab{
+    height: 100%;
+    width:100%;
+ }
+ 
+.buslist{
+    height: 140px;
+    width:1180px;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+.buslist:hover{
+    box-shadow: 0px 0px 5px 5px #e3e2e2;
+
+}
+.buslist>.busimg{
+    height: 140px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buslist>.busimg>img{
+    height: 130px;
+    width:170px;
+    border-radius: 20px;
+
+}
+.buslist>.busimg>img:hover{
+    height: 135px;
+    width:175px;
+    border-radius: 20px;
+    
+}
+
+
+.buslist>.busd{
+    height: 140px;
+    width:800px;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+
+
+}
+.buslist>.busd>.busdata{
+    height: 70px;
+    width:800px;
+    display: flex;
+}
+.buslist>.busd>.busdata>.travelname{
+    height: 70px;
+    width:250px;
+}
+
+.buslist>.busd>.busdata>.travelname>center>h2{
+    color: rgb(255, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.buslist>.busd>.busdata>.travelname>center>h3{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+.buslist>.busd>.busdata>.timedata{
+    height: 70px;
+    width:550px;
+    /* border: 1px solid rgb(33, 77, 252); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buslist>.busd>.busdata>.timedata>.time1{
+    height: 70px;
+    width:120px;
+}
+.buslist>.busd>.busdata>.timedata>.time1>p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 800;
+color: brown;
+font-size: 17px;
+/* float: right; */
+
+}
+.buslist>.busd>.busdata>.timedata>.time1>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: rgb(7, 10, 30);
+margin-top: 2px;
+
+    /* float: right; */
+    /* margin-right: 0px; */
+    }
+
+.buslist>.busd>.busdata>.timedata>.timebet{
+    height: 70px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buslist>.busd>.busdata>.timedata>.timebet>p{
+font-size: 23px;
+color: rgb(83, 25, 25);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.buslist>.busd>.busdata>.timedata>.timebet>p>b{
+/* border: 1px solid red; */
+padding: 2px 15px;
+font-weight: 900;
+font-size: 18px;
+border-radius: 20px;
+}
+
+
+.buslist>.busd>.busdata>.timedata>.time2{
+    height: 70px;
+    width:120px;
+}
+.buslist>.busd>.busdata>.timedata>.time2>p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 800;
+color: brown;
+font-size: 17px;
+/* display: flex; */
+float: right;
+
+}
+.buslist>.busd>.busdata>.timedata>.time2>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: rgb(14, 14, 14);
+    float: right;
+    /* margin-top: 20px; */
+    margin-left: 25px;
+
+    }
+
+
+.buslist>.ticketcost{
+    height: 140px;
+    width:180px;
+    /* border: 1px solid rgb(33, 77, 252); */
+}
+.buslist>.busd>.dropdata{
+    height: 40px;
+    width:800px;
+    /* border: 1px solid rgb(252, 33, 194); */
+    display: flex;
+    align-items: center;
+}
+.buslist>.busd>.dropdata>.location{
+    height: 32px;
+    width:145px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+
+}
+.buslist>.busd>.dropdata>.location>p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.buslist>.busd>.dropdata>.location:hover{
+background-color: rgba(163, 163, 163, 0.285);
+cursor: pointer;
+}
+
+
+
+
+
+.buslist>.busd>.dropdata>.rate{
+    height: 40px;
+    width:115px;
+    /* border: 1px solid rgb(252, 33, 33); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 35px;
+    
+}
+.buslist>.busd>.dropdata>.rate>.rate1{
+    height: 30px;
+    width:55px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+     /* border: 1px solid rgb(252, 33, 33);  */
+     
+     background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buslist>.busd>.dropdata>.rate>.rate2{
+    height: 30px;
+    width:60px;
+    /* border: 1px solid rgb(252, 33, 33); */
+background-color: rgb(212, 192, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.buslist>.busd>.dropdata>.rate>.rate1>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+}
+.buslist>.busd>.dropdata>.rate>.rate2>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+
+
+}
+
+
+
+
+
+.buslist>.ticketcost>center>h3{
+color: rgb(255, 0, 0);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+margin-top: 5px;
+}
+.buslist>.ticketcost>center>h1{
+    color: rgb(34, 34, 34);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-top: 5px;
+    }
+
+.buslist>.ticketcost>center>h4{
+    color: rgb(53, 166, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-top: 5px;
+
+    }
+
+.buslist>.ticketcost>center>#costbutton{
+    /* background-color: yellow; */
+    margin-top: 5px;
+    height: 35px;
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1200;
+    font-size: larger;
+
+    
+
+}
+
+
+.dropdown{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.dropdown>li{
+    height: 25px;
+    width:auto;
+list-style-type: none;
+margin-left: 35px;
+
+
+}
+.dropdown>li>a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+text-decoration: none;
+}
+
+
+
+
+
+
+/* TRAIN SEAT CSS */
+
+.trainlist{
+    height: 240px;
+    width:1180px;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+.trainlist:hover{
+    box-shadow: 0px 0px 5px 5px #e3e2e2;
+
+}
+
+.trainlist>.train-com>.trainimg{
+    height: 140px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trainlist>.train-com>.trainimg>img{
+    height: 130px;
+    width:170px;
+    border-radius: 20px;
+
+}
+.trainlist>.train-com>.trainimg>img:hover{
+    height: 135px;
+    width:175px;
+    border-radius: 20px;
+    
+}
+.trainlist>.train-com>.trainview{
+    height: 100px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trainlist>.traind{
+    height: 240px;
+    width:800px;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+
+
+}
+.trainlist>.traind>.traindata{
+    height: 70px;
+    width:800px;
+    display: flex;
+    /* border: 1px solid red; */
+
+}
+.trainlist>.traind>.traindata>.travelname{
+    height: 70px;
+    width:250px;
+}
+
+.trainlist>.traind>.traindata>.travelname>center>h2{
+    color: rgb(255, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.trainlist>.traind>.traindata>.travelname>center>h3{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+.trainlist>.traind>.traindata>.timedata{
+    height: 70px;
+    width:550px;
+    /* border: 1px solid rgb(33, 77, 252); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trainlist>.traind>.traindata>.timedata>.time1{
+    height: 70px;
+    width:120px;
+}
+.trainlist>.traind>.traindata>.timedata>.time1>p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 800;
+color: brown;
+font-size: 17px;
+/* float: right; */
+
+}
+.trainlist>.traind>.traindata>.timedata>.time1>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: rgb(7, 10, 30);
+margin-top: 2px;
+
+    /* float: right; */
+    /* margin-right: 0px; */
+    }
+
+.trainlist>.traind>.traindata>.timedata>.timebet{
+    height: 70px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trainlist>.traind>.traindata>.timedata>.timebet>p{
+font-size: 23px;
+color: rgb(83, 25, 25);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.trainlist>.traind>.traindata>.timedata>.timebet>p>b{
+/* border: 1px solid red; */
+padding: 2px 15px;
+font-weight: 900;
+font-size: 18px;
+border-radius: 20px;
+}
+
+
+.trainlist>.traind>.traindata>.timedata>.time2{
+    height: 70px;
+    width:120px;
+}
+.trainlist>.traind>.traindata>.timedata>.time2>p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 800;
+color: brown;
+font-size: 17px;
+float: right;
+
+}
+.trainlist>.traind>.traindata>.timedata>.time2>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    color: rgb(14, 14, 14);
+    float: right;
+    margin-left: 25px;
+
+    }
+.trainlist>.traind>.dropdata>.rate>.rate1>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+}
+.trainlist>.traind>.dropdata>.rate>.rate2>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+
+
+}
+
+.trainlist>.ticketcost{
+    /* border: 1px solid red; */
+    
+}
+
+
+
+
+
+.trainlist>.ticketcost>center>.costbutton{
+    /* background-color: yellow; */
+    margin-top: 5px;
+    height: 35px;
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1200;
+    font-size: larger;
+margin-top: 15px;
+}
+/* .trainlist>.train-com>.trainview>center>#viewbutton{
+    margin-top: 5px;
+    height: 35px;
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: large;
+} */
+
+
+.dropdownt{
+    margin-top: 27px;
+    height: 30px;
+    width: 800px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+}
+.dropdownt>li{
+    list-style-type: none;
+    margin-left: -10px;
+}
+.dropdownt>li>a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+padding: 2px 6px;
+text-decoration: none;
+border-radius: 5px;
+background-color: rgb(192, 192, 192);
+}
+
+
+
+
+
+.trainlist>.traind>.trainseats{
+    height: 100px;
+    width:800px;
+    /* border: 1px solid rgb(252, 33, 194); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.trainlist>.traind>.trainseats>.train-seat
+{
+    height: 95px;
+    width:170px;
+    border: 1px solid #c7c7c7;
+   border-radius: 20px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.trainlist>.traind>.trainseats>.train-seat:hover{
+    box-shadow: 0px 0px 5px 5px rgb(166, 138, 169);
+
+}
+.trainlist>.traind>.trainseats>.train-seat>.cost-type
+{
+    height: 47px;
+    width:170px;
+    /* border: 1px solid rgb(252, 33, 194); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.trainlist>.traind>.trainseats>.train-seat>.availability
+{
+    height: 47px;
+    width:170px;
+    /* border: 1px solid rgb(252, 33, 194); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trainlist>.traind>.trainseats>.train-seat>.cost-type>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.trainlist>.traind>.trainseats>.train-seat>.availability>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+
+
+
+.trainlist>.train-com>.trainview>center>.rate{
+    height: 40px;
+    width:115px;
+    /* border: 1px solid rgb(252, 33, 33); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-left: 35px; */
+    
+}
+.trainlist>.train-com>.trainview>center>.rate>.rate1{
+    height: 30px;
+    width:55px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+     /* border: 1px solid rgb(252, 33, 33);  */
+     
+     background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trainlist>.train-com>.trainview>center>.rate>.rate2{
+    height: 30px;
+    width:60px;
+    /* border: 1px solid rgb(252, 33, 33); */
+background-color: rgb(212, 192, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.trainlist>.train-com>.trainview>center>.rate>.rate1>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+}
+.trainlist>.train-com>.trainview>center>.rate>.rate2>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: #3d3c3c;
+
+
+}
+
+.trainlist>.ticketcost>.days{
+    height: 32px;
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   /* border: 1px solid red; */
+
+}
+.trainlist>.ticketcost>.day{
+    height: 32px;
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   margin-left: 15px;
+
+}
+.trainlist>.ticketcost>.days,.day>h2{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rebeccapurple;
+font-size: large;
+}
+
+
+.trainlist>.ticketcost>center>.location{
+    height: 32px;
+    width:145px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-left: 20px; */
+
+}
+.trainlist>.ticketcost>center>.location>p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.trainlist>.ticketcost>center>.location:hover{
+background-color: rgba(163, 163, 163, 0.285);
+cursor: pointer;
+}
+
